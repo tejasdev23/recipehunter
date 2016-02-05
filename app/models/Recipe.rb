@@ -3,7 +3,7 @@ require 'httparty'
 class Recipe
   include HTTParty
   key_value = ENV['FOOD2FORK_KEY']
- # key_value = 'd204f7f985562e18ca651903a8aafa0f'
+  key_value = 'd204f7f985562e18ca651903a8aafa0f'
   
   hostport = ENV['FOOD2FORK_SERVER_AND_PORT'] || 'www.food2fork.com'
     
